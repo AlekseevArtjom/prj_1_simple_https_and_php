@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2023 by original authors @ fontello.com</metadata>
+<defs>
+<font id="menu_1_ico" horiz-adv-x="1000" >
+<font-face font-family="menu_1_ico" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="activity" unicode="&#xe801;" d="M701 659c0 60 48 108 108 108 59 0 108-48 108-108 0-59-49-107-108-107-60 0-108 48-108 107z m155 0c0 26-21 47-47 47-26 0-48-21-48-47 0-26 22-47 48-47 26 0 47 21 47 47z m-209-206c10 13 29 15 43 5 12-9 15-26 7-39l-2-3-118-153c-10-12-26-15-39-7l-4 2-114 89-102-132c-9-12-26-15-39-8l-3 2c-13 10-16 26-8 39l2 4 121 156c9 12 26 15 39 8l4-2 113-90 100 129z m-13 250c0 16-13 30-30 30h-293l-10 0c-131-5-218-101-218-237v-326l1-9c4-135 92-228 227-228h347l9 0c132 5 218 101 218 237v284l0 4c-2 14-15 26-30 26-17 0-30-14-30-30v-284l0-9c-4-102-68-167-167-167h-347l-9 0c-98 4-158 72-158 176v326l0 9c4 102 68 167 167 167h293l4 1c15 2 26 14 26 30z" horiz-adv-x="1000" />
+</font>
+</defs>
+</svg>

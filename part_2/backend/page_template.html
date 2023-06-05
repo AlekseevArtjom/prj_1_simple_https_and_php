@@ -1,0 +1,32 @@
+<!-- для работы шаблона нужно создать объект view_test с именем $view_part2 -->
+
+<!DOCTYPE html>
+<html lang="en"> 
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>task_Full_stack_part_2</title>
+	
+		<link type="text/css" rel="stylesheet" href="<?php echo PATH_TO_STYLE_P_2; ?>" />
+	</head>
+		
+	<body>
+
+		<?php 
+		$view_part2->create_authorization_box(); 
+		$view_part2->create_user_data_box(); 
+		$view_part2->create_message_box(); 
+		?>
+
+		<div id="support" >
+			<div id="ajax"><?php echo PATH_TO_CONTROLLER_AJAX; ?></div>
+		</div>
+		
+		<script src="<?php echo PATH_TO_JS_LOADER; ?>"></script>
+		
+		<noscript>
+			<h1>Для корректной работы сайта включите javascript!</h1>
+		</noscript>
+	
+	</body>
+</html>

@@ -1,0 +1,22 @@
+CREATE DATABASE test_db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+
+CREATE TABLE test_db.registered_users 
+	( 	id INT NOT NULL AUTO_INCREMENT , 
+		name VARCHAR(20) NOT NULL,
+		birth_date DATE NOT NULL,
+		user_img_url VARCHAR(70) NULL DEFAULT NULL,
+		login VARCHAR(20) NOT NULL, 
+		password VARCHAR(20) NOT NULL,
+		
+		PRIMARY KEY (id),
+		UNIQUE login_ind (login)
+	) ENGINE = InnoDB;
+	
+INSERT INTO test_db.registered_users (name, birth_date, user_img_url, login, password) 
+VALUES ('Ваня пароль V_346', STR_TO_DATE('11.05.90', '%d.%c.%y'), '/images/user_test_avatar.png', 'Ivan', '4fZSCY1sVxa9w'), 
+	   ('Саша пароль S_10t', STR_TO_DATE('20.07.88', '%d.%c.%y'), '/images/avatar2.png', 'Sasha', '4fmV/amAm2e7I');
+	
+
+	
+	
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2023 by original authors @ fontello.com</metadata>
+<defs>
+<font id="menu_3_ico" horiz-adv-x="1000" >
+<font-face font-family="menu_3_ico" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="graph" unicode="&#xe804;" d="M559 767c-15 0-31-5-43-16-9-8-15-20-18-32l-1-7 0-6 19-272c2-34 32-61 68-59l277 19c16 1 31 8 41 20 9 9 14 21 15 34l0 8-1 5c-28 172-178 301-357 306z m0-61l9 0c141-9 258-109 286-245l1-7-275-18c-1 0-3 1-3 2l-18 268z m-193-100c30 5 60-11 71-38 4-7 6-15 7-23l16-229c0-3 2-6 4-8 2-1 4-2 7-3l2 0 233 14c18 1 37-5 51-18 13-12 21-30 21-51-10-150-121-276-271-309-151-32-305 36-380 168-19 34-33 71-39 109l-2 14c-2 10-2 21-3 31l1 11c0 157 110 293 266 329l10 3 6 0z m10-59l-4-1-9-2c-124-30-213-136-218-261l0-11c0-7 0-15 1-24l1-8c4-36 16-70 34-102 61-108 188-165 312-138 124 27 215 131 224 252 0 2-1 4-3 5 0 1-2 2-3 2l-2 0-231-14c-20-1-39 5-54 18-15 12-24 30-25 49l-17 229c0 0 0 0 0 2-1 2-4 4-6 4z" horiz-adv-x="1000" />
+</font>
+</defs>
+</svg>

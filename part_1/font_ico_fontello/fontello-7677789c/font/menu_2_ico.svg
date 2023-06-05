@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2023 by original authors @ fontello.com</metadata>
+<defs>
+<font id="menu_2_ico" horiz-adv-x="1000" >
+<font-face font-family="menu_2_ico" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="filter" unicode="&#xe803;" d="M248 746c-91 0-165-74-165-164 0-91 74-164 165-164 91 0 165 73 165 164 0 90-74 164-165 164z m0-63c56 0 101-45 101-101 0-56-45-101-101-101-56 0-102 45-102 101 0 56 46 101 102 101z m669-101c0 17-14 31-32 31h-320l-4 0c-15-2-27-15-27-31 0-18 14-32 31-32h320l4 1c16 2 28 15 28 31z m-329-464c0 91 73 164 164 164 91 0 165-73 165-164 0-90-74-164-165-164-91 0-164 74-164 164z m266 0c0 56-46 101-102 101-56 0-101-45-101-101 0-56 45-101 101-101 56 0 102 45 102 101z m-388 0c0 18-14 32-31 32h-320l-4-1c-16-2-28-15-28-31 0-17 15-31 32-31h320l4 0c15 2 27 15 27 31z" horiz-adv-x="1000" />
+</font>
+</defs>
+</svg>

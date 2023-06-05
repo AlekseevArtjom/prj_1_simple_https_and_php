@@ -1,0 +1,431 @@
+@font-face {
+  font-family: 'menu_3_ico';
+  src: url('/font_ico_fontello/fontello-2a6b051f/font/menu_3_ico.eot');
+  src: url('/font_ico_fontello/fontello-2a6b051f/font/menu_3_ico.woff') format('woff'),
+  url('/font_ico_fontello/fontello-2a6b051f/font/menu_3_ico.ttf') format('truetype'),
+  url('/font_ico_fontello/fontello-2a6b051f/font/menu_3_ico.svg#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+
+@font-face {
+	font-family: 'Inter Regular';
+	src: url('/font_Inter/inter_regular.eot'); 
+	src: url('/font_Inter/inter_regular.eot?#iefix') format('embedded-opentype'), 
+		url('/font_Inter/inter_regular.woff2') format('woff2'), 
+		url('/font_Inter/inter_regular.woff') format('woff'), 
+		url('/font_Inter/inter_regular.ttf') format('truetype'), 
+		url('/font_Inter/inter_regular.svg#inter_regular') format('svg');
+	}body
+
+
+
+body
+{
+	background-color: rgba(200,200,200, 0.3);
+	width: 100%;
+	margin: 0 auto;
+	font-family: 'Inter Regular';
+ }
+
+
+.main_blocks
+{
+	margin: auto;
+}
+
+
+/* главный голубой блок логотипа */
+#header 
+{
+	height: 31.69vw;
+	width: 70vw;
+
+	color: #29374E;
+	font-family: 'Inter Regular';
+	
+	background-color: #CBECFF;
+}
+	/* языковая панель */
+	#language_panel
+	{	/*border: dashed 1px red;*/
+	
+		width: 19.17%;
+		text-align: left;
+		padding-top: 0.96vw;
+		padding-left: 56.4vw;
+	}
+	#ru, #en { display: inline-block; border-radius: 50%; padding: 0.18vw; width: 1.05vw; height: 0.96vw; font-size: 0.75vw; font-weight: 400;}
+	#ru:hover, #en:hover { background-color: white; } 
+	
+	
+	/* группа из фотографии телефона и логотипа */
+	#header_group
+	{	/*border: 1px dotted green;*/
+		
+		display: flex;
+		flex-wrap: nowrap;
+
+	}
+
+	#main_logo
+	{	/*border: solid 1px red;*/
+		
+		width:17.77vw;
+		order: 1;
+
+		margin-left: 9.76vw;
+	}
+	#main_logo form { /*border: 1px dotted brown;*/ text-align: left; margin-top: 1.8vw; margin-bottom: 2vw;}
+	#main_logo form input { 
+				width: 9.47vw; 
+				height: 2.46vw; 
+
+				background-color: #0962E8;
+				border-radius: 0.75vw; 
+				border: solid 0px red; 
+
+				font-size: 1vw; 
+				font-weight: 500; 
+				font-family: 'Inter Regular'; 
+				color: #FFFFFF;
+				}
+
+		#logo1, #logo2 
+		{
+			display: inline-block;
+			width: 4.68vw;
+			height: 3.65vw; 
+			margin-top: 3vw;
+			
+			border-radius: 20%;			
+
+			font-size: 3vw;
+			font-weight: 700;
+			text-align: center;
+
+		}
+		#logo2 
+		{
+			background-color: white;
+			color: #0962E8;
+			/*padding: 0.1vw 1.5vw;*/
+		}
+
+	#abstract { font-size: 1.2vw; font-weight: 400;}
+
+	#phone_with_hand
+	{	/*border: dashed 1px yellow;*/
+		
+		margin-top: -2.3vw;
+		margin-left: 3.2vw;
+		width: 26.3vw;
+		height: 24.84vw;
+		order: 2;
+	}
+	#phone_with_hand img { width: 132%; height: 125%; }
+
+	
+	@media screen and (max-width: 700px) 
+		{ 
+		#header { width: 95vw; height: 240vw; }
+			#language_panel { padding-left: 77.0vw; padding-top: 3.6vw;}
+				#ru, #en { width: 3.6vw; height: 3.6vw; font-size: 2.9vw; padding: 1vw;}
+			#header_group{ flex-wrap: wrap; } 
+				#phone_with_hand {  order: 1; width: 110%; height: 130%; margin-left: -3vw; margin-top: -12vw; overflow: hidden;}
+					#phone_with_hand img { width: 140%; height: 100%; }
+				#main_logo { order: 2; width: 100%; margin-top: -10vw; margin-left: 0vw;} 
+					#logo1, #logo2 { width: 23.5vw; height: 15.6vw; margin-top: 0vw; margin-left: 1vw;  font-size: 15vw; }	
+					#abstract {margin-left: 2vw; font-size: 4.1vw; width: 70vw;}
+					#main_logo form { text-align: center; margin-top: 2.6vw; margin-bottom: 5.8vw;}
+					#main_logo form input { width: 86.9vw; height: 13.2vw; font-size: 4.7vw;}
+		}
+
+
+	/* меню сайта */
+	#menu
+	{	/*border: solid 1px green;*/
+		width: 47.86vw;
+		margin-left: 9.76vw; 
+		margin-top:2.54vw;
+
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: nowrap;
+	}	
+
+	.menu_item_group
+	{	/*border: dotted 1px black;*/
+	
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		width: 23.46vw;
+	}
+
+	.menu_item
+	{	/*border: dotted 1px white;*/
+		
+		/*position: relative;*/
+		width:11.26vw;
+		height: 5.524vw;
+		/*padding: 0vw 0.1vw;*/
+
+		background-color: white;
+		border-radius: 1.3vw;
+
+		
+	}
+	.menu_item>div 
+			{
+			position: relative;
+			
+			width: 9.39vw;
+			 
+			
+			margin-left: 0.934vw; 
+			margin-right: 0.934vw;
+			margin-top: 0.94vw;
+			font-size: 0.829vw;
+			font-weight: 500; 
+			line-height: 140%;
+			}	
+	
+	.img_icon {
+			position: absolute;
+			top: 0vw;
+			right: 0vw;
+
+			width: 1.83vw; 
+			height: 1.83vw; 
+
+			border-radius: 50%; 
+			background-color: #EFF9FF;
+		}
+	.img_icon img { width: 100%; height: 100%; }
+
+	.menu_text { width: 7.6vw;}	
+
+
+	@media screen and (max-width: 700px) 
+		{
+		#menu { width: 100%; flex-wrap: wrap; margin: 0vw; }
+			.menu_item_group { width: 97%; justify-content: space-around; margin: 0vw auto 8.5vw; auto;}
+				.menu_item { width: 41.53vw; height: 29.9vw;}
+					.menu_item>div { width: 34.0vw; height: 27vw; margin: 2vw;}
+						.img_icon { left: 0vw; width: 10vw; height: 10vw;  }
+						.menu_text {position: absolute; top: 12vw; font-size: 3.5vw; width: 100%; line-height: 100%; }
+		}
+
+
+
+
+/* главный белый блок с остальным содержанием */
+#content
+{	/*border: 1px solid red;*/
+	
+	width: 67.21vw;
+
+	padding-top: 7.12vw;
+	padding-left: 1.324vw; padding-right: 1.324vw;
+
+	background-color: #F5F5F5;
+
+	font-family: 'Inter Regular';
+}
+
+
+	/*заголовок блока*/
+	#content_head_line
+	{	/*border: 1px dotted green;*/
+		
+		text-align: center;
+		font-weight: 500;
+		font-size: 1.8vw;
+		color: #29374E;
+	}
+	#content_head_line span { color: #0962E8; }
+	
+	/* две группы блоков  */
+	.content_boxes_group
+	{	/*border: 1px dashed red;*/
+		
+		display: flex;
+		flex-wrap: nowrap;
+		justify-content: center;	
+		
+	}
+		/* голубой блок */
+		.blue_box
+		{	/*border: 1px dotted black;	*/
+			
+			display: flex;
+			flex-wrap: nowrap;
+
+			width: 23.46vw;   height: 15.35vw;
+			margin-left: 0.47vw;
+			margin-right: 0.47vw;
+			margin-top: 2.06vw;
+
+			background-color: #E9F6FF;
+			border-radius: 2vw;
+
+			overflow-y: scroll;
+		}
+		.blue_box>div { width: 11.9vw; margin-top: 0.6vw; color: #000000; }
+		.blue_box>div>div h3 { font-size: 1.3vw; font-weight: 600;}
+		.blue_box>div>div p { font-size: 0.85vw; font-weight: 400; }
+		
+		.blue_box>div>div { width: 10.2vw; margin-left: 1vw;}
+		.blue_box>div>div img { width: 100%; height: 100%; }
+		
+
+
+		.no_scroll::-webkit-scrollbar {width:0px !important; background:transparent;}  /*Chrom Safari Opera---WORK*/
+		@-moz-document url-prefix(){.no_scroll{scrollbar-width: none;}}   /*Firefox*/
+		.no_scroll{
+			-ms-scrollbar-base-color: #000;
+			-ms-scrollbar-face-color: #000;
+			-ms-scrollbar-arrow-color: #000;
+			-ms-scrollbar-track-color: #000;
+			-ms-scrollbar-shadow-color: #000;
+			-ms-scrollbar-dark-shadow-color: #000;
+			-ms-scrollbar-highlight-color: #000;
+			} /*Enternet Explorer +1---WORK*/
+
+
+		/* прозрачный блок большой */
+		.transparent_box
+		{	/*border: 1px dotted black;*/
+			
+			width: 23.46vw;   height: 15.35vw;
+			margin-left: 0.47vw;
+			margin-right: 0.47vw;
+			margin-top: 5.69vw;
+		}
+		
+			/* маленький блок внутри прозрачного блока */
+			.transparent_box_item
+			{	/*border: solid 1px red;*/
+				
+				position: relative;
+
+				
+
+				font-size: 1vw;
+
+				border-radius: 1vw;
+				background-color: #FFFFFF;
+			}
+	
+
+			.transparent_box_item > div 
+			{	border: dotted 1px #FFFFFF;
+				
+				position: relative;
+				
+				margin-top: 0.8vw;
+				margin-left: 1.33vw;				
+			}
+								
+
+			.img_icon_transparent_box 
+			{
+				left: 0vw;
+			}
+			.transparent_box_item img { height: 100%; width: 100%; }
+			
+			.transparent_box_item_text
+			{
+				width: 8.6vw;
+				margin-top: 1.83vw; 
+				
+				font-weight: 500;
+				line-height: 140%;
+				font-size: 0.6vw;
+				color: #29374E;
+			}
+			
+				
+
+			/* для блока без вложений */
+			.single_box 
+			{
+					
+			}
+			.single_box  h2 { font-weight: 500; font-size: 1.8vw; color: #29374E;}
+			.single_box h2  span { color: #0962E8; }
+			.single_box div div { width: 17.6vw; }
+			.single_box p { font-size: 0.62vw;; font-weight: 400; color: #1E2837;}
+			.single_box form input { 
+						width: 9.47vw;
+						height: 2.46vw; 
+
+						background-color: #0962E8; 
+						border-radius: 0.75vw; 
+						border: solid 0px red; 
+
+						font-size: 1vw; 
+						font-weight: 500; 
+						color: #FFFFFF;
+						font-family: 'Inter Regular';
+						}
+			
+			/* для блока с вложениями из 4 подблоков */
+			.set_of_little_boxes
+			{	/*border: dotted 1px red;	*/
+		
+				display: grid;
+				
+				grid-template-rows: 6.5vw 6.5vw;
+				grid-template-columns: 10.8vw 11.73vw;
+			
+				align-content: center;
+				justify-content: center;
+				
+				column-gap: 0.9vw;
+				row-gap: 0.99vw;
+			}
+				
+
+	@media screen and (max-width: 700px) 
+		{ 
+		#content {width: 92.5vw; padding-top: 10.15vw;}
+			#content_head_line { font-size: 6.3vw; margin-bottom: 6.1vw;}
+		.content_boxes_group { flex-wrap: wrap; }
+		.blue_box { width: 87.1vw; height:  54.5vw; margin-top: 0vw; margin-bottom: 4.1vw; justify-content: space-around;}
+			.blue_box>div { width: 38.0vw; height: 48.2vw;}
+				.blue_box>div>div { width: 100%; height: 100%; }
+				.blue_box>div>div h3 { font-size: 4.2vw; }
+				.blue_box>div>div p { font-size: 3.2vw; }
+		
+		.transparent_box { width: 87.1vw; height:  54.5vw;  margin-bottom: 12.5vw;}
+
+		.single_box  h2 { font-size: 6.1vw; text-align: center;}
+		.single_box p { font-size: 3.5vw; }
+		.single_box div { margin: 0vw auto; }
+		.single_box div div { width: 90%; text-align: center;  }
+		.single_box form { text-align: center; margin-top: 2.6vw; margin-bottom: 5.8vw;}
+					.single_box form input { width: 86.9vw; height: 13.2vw; font-size: 4.7vw;}
+		
+		.set_of_little_boxes { 
+					grid-template-rows: 30.0vw 34vw;
+					grid-template-columns: repeat(2, 41.5vw); 
+					
+					column-gap: 3.3vw;
+					row-gap: 3.4vw;
+					}
+
+
+		.transparent_box_item { width: 41.53vw; height: 29.9vw;}
+					.transparent_box_item>div { width: 34.0vw; height: 27vw; margin: 2vw;}
+						.img_icon_transparent_box { left: 0vw; width: 10vw; height: 10vw;  }
+						.transparent_box_item_text {position: absolute; top: 12vw; font-size: 3.5vw; width: 100%; line-height: 100%; }
+
+		 }
+
+
